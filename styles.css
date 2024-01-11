@@ -106,7 +106,7 @@ body {
 }
 
 .section-1 {
-  background: radial-gradient(circle at center, white, rgb(27, 163, 163), teal);
+  background: radial-gradient(circle at center, lightgray, rgb(27, 163, 163), teal);
 }
 
 .section-2 {
