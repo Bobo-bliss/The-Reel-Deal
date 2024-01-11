@@ -25,3 +25,25 @@ window.addEventListener("scroll", () => {
     header.classList.add("scroll-fade-out"); // Reset the background color
   }
 });
+
+const modalButtons = document.querySelectorAll(".popup-modal");
+const modalContainer = document.querySelector(".modal-container");
+
+modalButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const modal = document.createElement("div");
+    modal.classList.add("modal-bg");
+    modal.innerHTML = `
+        <div class="modal">
+          <div class="modal-header">
+            <h3 class="modal-title">Modal Title</h3>
+            <button class="modal-close">X</button>
+          </div>
+          <div class="modal-body">
+            
+          </div>
+        </div>
+    `;
+    modalContainer.appendChild(modal);
+  });
+});
