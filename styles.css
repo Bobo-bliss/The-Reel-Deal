@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: transparent;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  position: fixed; /* Make the header fixed */
+  width: 100%; /* Full width */
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.scroll-fade-in {
+  background-color: #333;
+  color: #ccc;
+  padding: 0;
+  text-align: center;
+  position: fixed; /* Make the header fixed */
+  width: 100%; /* Full width */
+  z-index: 1;
+  transition: background-color 0.5s ease-in, color 0.5s ease-in;
+}
+
+.scroll-fade-out {
+  background-color: transparent;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  position: fixed; /* Make the header fixed */
+  width: 100%; /* Full width */
+  z-index: 1;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.header h1 {
+  margin: 1rem;
+  padding: 0;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 3rem;
+}
+
+.spacer {
+  margin: 0 4rem;
+}
+
+.header ul li {
+  list-style: none;
+}
+
+.header ul li button {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 0.2rem 0.5rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.slideshow-main {
+  display: flex;
+  justify-content: center;
+  background-color: #63327c;
+  height: 100vh;
+  position: relative;
+}
+
+.slideshow-main img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.slideshow-main img.active {
+  opacity: 1;
+}
+
+.sections {
+  margin: 2rem 1rem;
+}
+
+.bg-container {
+  padding: 2rem;
+  border-radius: 25px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3), -10px -10px 15px rgba(255, 255, 255, 0.7);
+}
+
+.section-1 {
+  background: radial-gradient(circle at center, white, rgb(27, 163, 163), teal);
+}
+
+.section-2 {
+  background: radial-gradient(circle at center, lightgray, rgb(27, 163, 93), rgb(0, 128, 49));
+}
+
+.section-3 {
+  background: radial-gradient(circle at center, lightgray, rgb(252, 255, 50), rgb(202, 213, 7));
+}
+
+.text-container {
+  width: 50%;
+  margin: 0 1rem;
+}
+
+.text-container p {
+  font-size: 20px;
+}
+
+.video-container {
+  position: relative;
+  width: 80%;
+  height: 0;
+  padding-bottom: 35.25%;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tour-container {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-container h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.tour-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tour-buttons button {
+  width: 30%;
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.kitchen-bg {
+  background-image: url("./images/Kitchen 5.jpg");
+  color: rgb(252, 178, 18);
+  border: 1px solid rgb(252, 178, 18);
+}
+
+.bedroom-bg {
+  background-image: url("./images/Master\ bedroom.jpg");
+  color: #119;
+  border: 1px solid #119;
+}
+
+.pool-bg {
+  background-image: url("./images/Pool.jpg");
+  color: rgb(15, 128, 128);
+  border: 1px solid rgb(15, 128, 128);
+}
