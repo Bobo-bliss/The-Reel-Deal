@@ -203,6 +203,10 @@ body {
 
 .kitchen {
   position: relative;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  justify-content: space-evenly;
 }
 
 .kitchen-header {
@@ -216,14 +220,15 @@ body {
 }
 
 .kitchen-title {
-  margin: 0;
-  padding: 1rem 1rem;
+  width: 30%;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 8rem;
+  margin: 0 0 0 4rem;
+  transform: translateY(-5rem);
 }
 
 .kitchen-img-ctn {
@@ -231,6 +236,10 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 30rem;
+}
+
+.carousel-ctn {
+  width: 70%;
 }
 
 .carousel {
@@ -253,14 +262,14 @@ body {
 }
 
 .next {
-  transform: translateX(60%);
+  transform: translateX(30%);
   z-index: 2;
   opacity: 0;
   transition: ease-in-out 0.3s;
 }
 
 .prev {
-  transform: translateX(-60%);
+  transform: translateX(-30%);
   z-index: 2;
   opacity: 0;
   transition: ease-in-out 0.3s;
@@ -274,6 +283,7 @@ body {
 .carousel-buttons button {
   border: none;
   cursor: pointer;
+  margin: 0 1rem;
 }
 
 .carousel-buttons button i {
