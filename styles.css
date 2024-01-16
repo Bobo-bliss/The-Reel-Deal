@@ -14,8 +14,8 @@ body {
   color: #333;
   padding: 0;
   text-align: center;
-  position: fixed; /* Make the header fixed */
-  width: 100%; /* Full width */
+  position: fixed;
+  width: 100%;
   z-index: 1;
   display: flex;
   justify-content: space-around;
@@ -27,8 +27,8 @@ body {
   color: #ccc;
   padding: 0;
   text-align: center;
-  position: fixed; /* Make the header fixed */
-  width: 100%; /* Full width */
+  position: fixed;
+  width: 100%;
   z-index: 1;
   transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
@@ -38,8 +38,8 @@ body {
   color: #333;
   padding: 0;
   text-align: center;
-  position: fixed; /* Make the header fixed */
-  width: 100%; /* Full width */
+  position: fixed;
+  width: 100%;
   z-index: 1;
   transition: background-color 0.5s ease-out, color 0.5s ease-out;
 }
@@ -165,8 +165,13 @@ body {
   list-style: none;
 }
 
-.tour-buttons button {
+.tour-buttons a {
+  text-decoration: none;
   width: 30%;
+}
+
+.tour-buttons button {
+  width: 100%;
   height: 30rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,64 +183,99 @@ body {
   cursor: pointer;
 }
 
-.kitchen-bg {
+.kitchen-button-bg {
   background-image: url("./images/Kitchen 5.jpg");
   color: rgb(252, 178, 18);
   border: 1px solid rgb(252, 178, 18);
 }
 
-.bedroom-bg {
+.bedroom-button-bg {
   background-image: url("./images/Master\ bedroom.jpg");
   color: #119;
   border: 1px solid #119;
 }
 
-.pool-bg {
+.pool-button-bg {
   background-image: url("./images/Pool.jpg");
   color: rgb(15, 128, 128);
   border: 1px solid rgb(15, 128, 128);
 }
 
-.modal-bg {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+.kitchen {
+  position: relative;
 }
 
-.modal {
-  position: fixed;
-  top: 70px;
-  left: 5%;
-  width: 90%;
-  height: 85%;
-  background-color: white;
-}
-
-.modal-header {
+.kitchen-header {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  color: #ccc;
+  background-color: #333;
 }
 
-.modal-close {
+.kitchen-title {
+  margin: 0;
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 8rem;
+}
+
+.kitchen-img-ctn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30rem;
+}
+
+.carousel {
+  width: 45%;
+  margin: 1rem 0;
   position: absolute;
-  top: 0;
-  right: 0;
-  background-color: transparent;
-  border: 1px solid;
+  z-index: -1;
+  opacity: 0;
 }
 
-.modal-body {
-  position: relative;
+.kitchen-img-ctn :nth-child(3),
+.kitchen-img-ctn :nth-child(4) {
+  width: 25%;
 }
 
-.modal-body img {
-  width: 22rem;
-  position: absolute;
-  left: 31%;
-  top: 0;
+.current {
+  z-index: 5;
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+}
+
+.next {
+  transform: translateX(60%);
+  z-index: 2;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+}
+
+.prev {
+  transform: translateX(-60%);
+  z-index: 2;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+}
+
+.carousel-buttons {
+  text-align: center;
+  margin: 0 0 3rem;
+}
+
+.carousel-buttons button {
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-buttons button i {
+  font-size: 2rem;
 }
