@@ -275,6 +275,7 @@ body {
   border: none;
   cursor: pointer;
   margin: 0 1rem;
+  background-color: transparent;
 }
 
 .carousel-buttons button i {
