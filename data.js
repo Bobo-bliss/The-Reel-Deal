@@ -93,7 +93,7 @@ export const data = [
   {
     id: "3",
     name: "Living Room",
-    text: "The living room has a open floor plan with decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth compatible speakers.",
+    text: "The living room has an open floor plan with decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth compatible speakers.",
     images: [
       {
         src: "images/Livingroom top-down.jpg",
