@@ -75,7 +75,7 @@ roomButtons.forEach((room) => {
   });
 });
 
-let current = 1;
+let current = 0;
 let next = current < carouselImages.length - 1 ? current + 1 : 0;
 let prev = current > 0 ? current - 1 : carouselImages.length - 1;
 
