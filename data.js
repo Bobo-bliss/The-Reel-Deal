@@ -2,7 +2,7 @@ export const data = [
   {
     id: "0",
     name: "Kitchen",
-    text: "The kitchen is fully stocked with everything you need to cook a meal.  There is a stove, oven, microwave, refrigerator, dishwasher, coffee maker, toaster, blender, and all the pots, pans, dishes, and utensils you need.  There is also a gas grill on the deck.",
+    text: "The kitchen is fully stocked with everything you need to cook a meal.  There is a stove, oven, microwave, refrigerator, dishwasher, coffee maker, toaster, blender, and all the pots, pans, dishes, and utensils you need.  There is also a gas grill for outdoor cooking.",
     images: [
       {
         src: "images/Kitchen.jpg",
@@ -31,7 +31,7 @@ export const data = [
   {
     id: "1",
     name: "Bedrooms",
-    text: "The upstairs master bedroom has a king size bed, a private bathroom, and a private deck. The lower level master bedroom has a king size bed, a private bathroom, and access to the main deck. There are two additional guest bedroom with queen size beds, and a bunk room that sleeps five.",
+    text: "The upstairs master bedroom has a king size bed, a private bathroom, and a private deck. The lower level master bedroom has a king size bed, a private bathroom, and access to the main deck. There are two additional guest bedrooms with queen size beds, and a bunk room that sleeps five.",
     images: [
       {
         src: "images/Master bedroom.jpg",
@@ -92,8 +92,8 @@ export const data = [
   },
   {
     id: "3",
-    name: "Living Room",
-    text: "The living room has an open floor plan with a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth compatible speakers.",
+    name: "Living Area",
+    text: "The spacious living area has an open floor plan with a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth-compatible speakers.",
     images: [
       {
         src: "images/Livingroom top-down.jpg",
