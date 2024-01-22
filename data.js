@@ -31,7 +31,7 @@ export const data = [
   {
     id: "1",
     name: "Bedrooms",
-    text: "The master bedroom has a king size bed, a private bathroom, and a private deck.  The guest bedroom has a queen size bed and a private bathroom.  There is also a queen size sleeper sofa in the living room.",
+    text: "The upstairs master bedroom has a king size bed, a private bathroom, and a private deck. The lower level master bedroom has a king size bed and a private bathroom. There are two additional guest bedroom with queen size beds, and a bunk room that sleeps five.",
     images: [
       {
         src: "images/Master bedroom.jpg",
@@ -70,7 +70,7 @@ export const data = [
   {
     id: "2",
     name: "Pool",
-    text: "The pool is open from Memorial Day to Labor Day.  It is a short walk from the condo.  There is also a hot tub and a sauna.",
+    text: "A beautiful private pool is located adjacent to the house.",
     images: [
       {
         src: "images/Pool.jpg",
@@ -93,7 +93,7 @@ export const data = [
   {
     id: "3",
     name: "Living Room",
-    text: "The living room has a gas fireplace, a 55 inch TV, a DVD player, and a stereo.  There is also a queen size sleeper sofa.",
+    text: "The living room has a open floor plan with decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth compatible speakers.",
     images: [
       {
         src: "images/Livingroom top-down.jpg",
@@ -112,7 +112,7 @@ export const data = [
   {
     id: "4",
     name: "Exterior",
-    text: "The condo is on the second floor.  There is a private deck with a gas grill.  There is also a washer and dryer in the condo.",
+    text: "Words about the exterior of the house.",
     images: [
       {
         src: "images/Pool.jpg",
