@@ -31,7 +31,7 @@ export const data = [
   {
     id: "1",
     name: "Bedrooms",
-    text: "The upstairs master bedroom has a king size bed, a private bathroom, and a private deck. The lower level master bedroom has a king size bed and a private bathroom. There are two additional guest bedroom with queen size beds, and a bunk room that sleeps five.",
+    text: "The upstairs master bedroom has a king size bed, a private bathroom, and a private deck. The lower level master bedroom has a king size bed, a private bathroom, and access to the main deck. There are two additional guest bedroom with queen size beds, and a bunk room that sleeps five.",
     images: [
       {
         src: "images/Master bedroom.jpg",
@@ -93,7 +93,7 @@ export const data = [
   {
     id: "3",
     name: "Living Room",
-    text: "The living room has an open floor plan with decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth compatible speakers.",
+    text: "The living room has an open floor plan with a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth compatible speakers.",
     images: [
       {
         src: "images/Livingroom top-down.jpg",
