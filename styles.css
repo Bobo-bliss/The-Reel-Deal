@@ -3,12 +3,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .header {
   background-color: transparent;
   color: #333;
@@ -24,32 +18,33 @@ body {
 
 .scroll-fade-in {
   background-color: #333;
-  color: #ccc;
-  padding: 0;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
   transition: background-color 0.5s ease-in, color 0.5s ease-in;
 }
 
 .scroll-fade-out {
-  background-color: transparent;
-  color: #333;
-  padding: 0;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  z-index: 1;
   transition: background-color 0.5s ease-out, color 0.5s ease-out;
 }
 
-.header h1 {
+.header-title {
   margin: 1rem;
   padding: 0;
+  text-decoration: none;
+  color: #333;
 }
 
-.header ul {
+.header-title-scroll {
+  text-decoration: none;
+  color: #ccc;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.header-title {
+  text-decoration: none;
+  color: #ccc;
+
+}
+
+.header-buttons {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -60,14 +55,15 @@ body {
 }
 
 .spacer {
-  margin: 0 4rem;
+  margin: 0 0 0 1rem;
 }
 
-.header ul li {
+.header-buttons li {
   list-style: none;
+  margin: 0 10px;
 }
 
-.header ul li button {
+.header-buttons li button {
   border-radius: 10px;
   border: 1px solid black;
   padding: 0.2rem 0.5rem;
@@ -106,14 +102,23 @@ body {
 }
 
 .section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: radial-gradient(circle at center, lightgray, rgb(27, 163, 163), teal);
 }
 
 .section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: radial-gradient(circle at center, lightgray, rgb(27, 163, 93), rgb(0, 128, 49));
 }
 
 .section-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: radial-gradient(circle at center, lightgray, rgb(252, 255, 50), rgb(202, 213, 7));
 }
 
@@ -142,7 +147,7 @@ body {
   height: 100%;
 }
 
-.tour-container {
+.home-tour-container {
   margin: 2rem;
   display: flex;
   flex-direction: column;
@@ -150,12 +155,12 @@ body {
   align-items: center;
 }
 
-.tour-container h2 {
+.home-tour-container h2 {
   margin: 0;
   padding: 0;
 }
 
-.tour-buttons {
+.home-tour-button {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -165,43 +170,30 @@ body {
   list-style: none;
 }
 
-.tour-buttons a {
+.home-tour-button a {
   text-decoration: none;
-  width: 30%;
+  width: 100%;
 }
 
-.tour-buttons button {
+.home-tour-button button {
   width: 100%;
-  height: 30rem;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  padding: 10px;
-  font-size: 20px;
+  padding: 0;
+  margin: 0;
   cursor: pointer;
 }
 
-.kitchen-button-bg {
-  background-image: url("./images/Kitchen 5.jpg");
-  color: rgb(252, 178, 18);
+.home-tour-button-bg {
   border: 1px solid rgb(252, 178, 18);
 }
 
-.bedroom-button-bg {
-  background-image: url("./images/Master\ bedroom.jpg");
-  color: #119;
-  border: 1px solid #119;
+.home-tour-button-bg img {
+  width: 100%;
 }
 
-.pool-button-bg {
-  background-image: url("./images/Pool.jpg");
-  color: rgb(15, 128, 128);
-  border: 1px solid rgb(15, 128, 128);
-}
-
-.kitchen {
+.tour-ctn {
   position: relative;
   display: flex;
   width: 100%;
@@ -209,17 +201,17 @@ body {
   justify-content: space-evenly;
 }
 
-.kitchen-header {
+.tour-header {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   color: #ccc;
   background-color: #333;
 }
 
-.kitchen-title {
+.tour-title {
   width: 30%;
   padding: 0;
   display: flex;
@@ -231,7 +223,7 @@ body {
   transform: translateY(-5rem);
 }
 
-.kitchen-img-ctn {
+.carousel-img-ctn {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -244,14 +236,14 @@ body {
 
 .carousel {
   width: 45%;
+  max-height: 85%;
   margin: 1rem 0;
   position: absolute;
   z-index: -1;
   opacity: 0;
 }
 
-.kitchen-img-ctn :nth-child(3),
-.kitchen-img-ctn :nth-child(4) {
+.img-resize {
   width: 25%;
 }
 
