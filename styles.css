@@ -213,14 +213,16 @@ body {
 
 .tour-title {
   width: 30%;
-  padding: 0;
+  height: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin: 0 0 0 4rem;
-  transform: translateY(-5rem);
+  padding: 0 0rem 0px 1rem;
+  transform: translateY(5rem);
+  box-shadow: -5px 5px 9px -7px;
 }
 
 .carousel-img-ctn {
