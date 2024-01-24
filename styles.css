@@ -120,25 +120,24 @@ body {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3), -10px -10px 15px rgba(255, 255, 255, 0.7);
 }
 
-.section-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: radial-gradient(circle at center, lightgray, rgb(27, 163, 163), teal);
-}
-
-.section-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: radial-gradient(circle at center, lightgray, rgb(27, 163, 93), rgb(0, 128, 49));
-}
-
+.section-1,
+.section-2,
 .section-3 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section-1 {
   background: radial-gradient(circle at center, lightgray, rgb(252, 255, 50), rgb(202, 213, 7));
+}
+
+.section-2 {
+  background: radial-gradient(circle at center, lightgray, rgb(27, 163, 93), rgb(0, 128, 49));
+}
+
+.section-3 {
+  background: radial-gradient(circle at center, lightgray, rgb(27, 163, 163), teal);
 }
 
 .text-container {
@@ -147,7 +146,7 @@ body {
 }
 
 .text-container p {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .video-container {
