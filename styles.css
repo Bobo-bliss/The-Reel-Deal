@@ -357,6 +357,10 @@ body {
   align-items: center;
 }
 
+.reviews-ctn {
+  padding: 4rem 0;
+}
+
 .reviews-header {
   text-align: center;
 }
