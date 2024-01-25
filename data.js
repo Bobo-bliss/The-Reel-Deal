@@ -2,7 +2,7 @@ export const data = [
   {
     id: "0",
     name: "Kitchen",
-    text: "This beautifully appointed kitchen has everything you'll need including a stove, oven, refrigerator / freezer, microwave, dishwasher, both drip and Keurig coffee makers, crock pots, toasters, blenders, wine rack, as well as ample dishware, glassware, flatware, utensils, pots, pans, mixing bowls, and baking dishes.  There is also a gas grill under the house for outdoor cooking.",
+    text: "This beautifully appointed kitchen has everything you'll need including a stove, oven, refrigerator, freezer, microwave, dishwasher, both drip and Keurig coffee makers, crock pots, toasters, blenders, wine rack, as well as ample dishware, glassware, flatware, utensils, pots, pans, mixing bowls, and baking dishes.  There is also a gas grill under the house for outdoor cooking.",
     images: [
       {
         src: "images/Kitchen.jpg",
@@ -50,7 +50,7 @@ export const data = [
         alt: "bedroom",
       },
       {
-        src: "images/Gestbedroom 2-2.jpg",
+        src: "images/Guest bedroom 2-2.jpg",
         alt: "bedroom",
       },
       {
