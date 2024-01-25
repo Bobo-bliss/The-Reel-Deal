@@ -2,7 +2,7 @@ export const data = [
   {
     id: "0",
     name: "Kitchen",
-    text: "The kitchen is fully stocked with everything you need to cook a meal.  There is a stove, oven, microwave, refrigerator, dishwasher, coffee maker, toaster, blender, and all the pots, pans, dishes, and utensils you need.  There is also a gas grill for outdoor cooking.",
+    text: "This beautifully appointed kitchen has everything you'll need including a stove, oven, microwave, both drip and Keurig coffee makers, crock pots, toasters, blenders, a refrigerator / freezer, a dishwasher, a wine rack, and as well as ample dishware, glassware, flatware, utensils, pots, pans, mixing bowls, and baking dishes.  There is also a gas grill under the house for outdoor cooking.",
     images: [
       {
         src: "images/Kitchen.jpg",
@@ -70,7 +70,7 @@ export const data = [
   {
     id: "2",
     name: "Pool",
-    text: "A beautiful private pool is located adjacent to the house.",
+    text: "A beautiful private family-sized pool, with ample lounge seating, is located adjacent to the house.  Sloping from 3 ft. to 6 ft. with 2 step-in entrances, there's room for everyone to have fun. Heating is optional.",
     images: [
       {
         src: "images/Pool.jpg",
@@ -93,7 +93,7 @@ export const data = [
   {
     id: "3",
     name: "Living Area",
-    text: "The spacious living area has an open floor plan with a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth-compatible speakers.",
+    text: "The spacious living area has an open floor plan , a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth-compatible speakers.  A large dining table that seats 8, with  6 additional stools, lets family and friends gather together to enjoy meals.  And French Doors lead you out to the main deck and incredible views of the Gulf.",
     images: [
       {
         src: "images/Livingroom top-down.jpg",

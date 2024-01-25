@@ -357,6 +357,24 @@ body {
   align-items: center;
 }
 
+.reviews-header {
+  text-align: center;
+}
+
+.reviews-reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.user-ctn {
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px solid black;
+  width: 26rem;
+}
+
 /* Footer styles */
 .footer-container {
   padding: 2rem;
