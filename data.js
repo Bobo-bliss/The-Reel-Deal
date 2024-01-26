@@ -31,7 +31,7 @@ export const data = [
   {
     id: "1",
     name: "Bedrooms",
-    text: "The upstairs master bedroom has a king size bed, a private bathroom, and a private deck. The lower level master bedroom has a king size bed, a private bathroom, and access to the main deck. There are two additional guest bedrooms with queen size beds, and a bunk room that sleeps five.",
+    text: "The upstairs master bedroom has a king size bed, a private bathroom, and a private deck. The lower level master bedroom has a king size bed, a private bathroom, and access to the main deck. There are two additional guest bedrooms with queen size beds, and a separate upstairs living area that sleeps five.",
     images: [
       {
         src: "images/Master bedroom.jpg",
@@ -70,7 +70,7 @@ export const data = [
   {
     id: "2",
     name: "Pool",
-    text: "A beautiful private family-sized pool, with ample lounge seating, is located adjacent to the house.  Sloping from 3 ft. to 6 ft. with 2 step-in entrances, there's room for everyone to have fun. Heating is optional.",
+    text: "A beautiful private family-sized pool, with ample lounge seating, is located adjacent to the house.  Sloping from 3-6 ft. with 2 entrances there's room for everyone to have fun. Heating is optional.",
     images: [
       {
         src: "images/Pool.jpg",
@@ -93,7 +93,7 @@ export const data = [
   {
     id: "3",
     name: "Living Area",
-    text: "The spacious living area has an open floor plan , a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth-compatible speakers.  A large dining table that seats 8, with  6 additional stools, lets family and friends gather together to enjoy meals.  And French Doors lead you out to the main deck and incredible views of the Gulf.",
+    text: "The spacious living area has vaulted ceilings with an open floor plan, a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth-compatible speakers.  A large dining table that seats 8, with  6 additional stools, lets family and friends gather together to enjoy meals.  And French Doors lead you out to the main deck and incredible views of the Gulf.",
     images: [
       {
         src: "images/Livingroom top-down.jpg",
