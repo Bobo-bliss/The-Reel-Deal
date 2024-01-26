@@ -70,7 +70,7 @@ export const data = [
   {
     id: "2",
     name: "Pool",
-    text: "A beautiful private family-sized pool, with ample chaise lounge and adirondack chair seating seating, is located adjacent to the house. Sloping from 3-6 ft. with 2 entrances there's room for everyone to have fun. Heating is optional.",
+    text: "A beautiful private family-sized pool, with ample chaise lounge and adirondack chair seating seating, is located adjacent to the house. Sloping from 3-6 ft., with 3 entrances, there's room for everyone to have fun. Heating is optional.",
     images: [
       {
         src: "images/Pool.jpg",
