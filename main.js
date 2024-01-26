@@ -2,7 +2,6 @@ const mainSlideshow = document.querySelectorAll(".slideshow-main img");
 const header = document.querySelector("header");
 const headerTitle = document.querySelector("header a");
 const headerNav = document.querySelectorAll(".header-buttons button");
-console.log(headerNav);
 
 let currentSlide = 0;
 
