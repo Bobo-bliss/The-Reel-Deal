@@ -134,15 +134,15 @@ body {
 }
 
 .section-2 {
-  background: radial-gradient(circle at center, lightgray, rgb(27, 163, 93), rgb(0, 128, 49));
-}
-
-.section-3 {
   background: radial-gradient(circle at center, lightgray, rgb(27, 163, 163), teal);
 }
 
+.section-3 {
+  background: radial-gradient(circle at center, lightgray, rgb(246, 232, 107), rgb(250, 238, 68));
+}
+
 .section-4 {
-  background: radial-gradient(circle at center, lightgray, rgb(222, 117, 189), rgb(191, 64, 163));
+  background: radial-gradient(circle at center, lightgray, rgb(222, 117, 154), rgb(245, 81, 139));
 }
 
 .text-container {
