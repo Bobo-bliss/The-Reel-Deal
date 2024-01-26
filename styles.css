@@ -122,7 +122,8 @@ body {
 
 .section-1,
 .section-2,
-.section-3 {
+.section-3,
+.section-4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -138,6 +139,10 @@ body {
 
 .section-3 {
   background: radial-gradient(circle at center, lightgray, rgb(27, 163, 163), teal);
+}
+
+.section-4 {
+  background: radial-gradient(circle at center, lightgray, rgb(226, 50, 170), rgb(195, 8, 154));
 }
 
 .text-container {
