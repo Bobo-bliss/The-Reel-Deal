@@ -70,7 +70,7 @@ export const data = [
   {
     id: "2",
     name: "Pool",
-    text: "A beautiful private family-sized pool, with ample lounge seating, is located adjacent to the house.  Sloping from 3-6 ft. with 2 entrances there's room for everyone to have fun. Heating is optional.",
+    text: "A beautiful private family-sized pool, with ample chaise lounge and adirondack chair seating seating, is located adjacent to the house. Sloping from 3-6 ft. with 2 entrances there's room for everyone to have fun. Heating is optional.",
     images: [
       {
         src: "images/Pool.jpg",
@@ -93,7 +93,7 @@ export const data = [
   {
     id: "3",
     name: "Living Area",
-    text: "The spacious living area has vaulted ceilings with an open floor plan, a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth-compatible speakers.  A large dining table that seats 8, with  6 additional stools, lets family and friends gather together to enjoy meals.  And French Doors lead you out to the main deck and incredible views of the Gulf.",
+    text: "The spacious living area has vaulted ceilings and an open floor plan, a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth-compatible speakers.  A large dining table that seats 8, with  6 additional stools, lets family and friends gather together to enjoy meals.  And French Doors lead you out to the main deck and incredible views of the Gulf.",
     images: [
       {
         src: "images/Livingroom top-down.jpg",
