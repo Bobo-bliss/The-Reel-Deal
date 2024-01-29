@@ -392,14 +392,13 @@ body {
 
 /* Footer styles */
 .footer-container {
-  padding: 2rem;
-  background-color: darkgoldenrod;
-  color: white;
+  padding: 2rem 6rem;
+  background-color: #edc256;
 }
 
 .footer-text {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 /* Footer styles */
