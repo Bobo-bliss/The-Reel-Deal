@@ -70,7 +70,7 @@ export const data = [
   {
     id: "2",
     name: "Pool",
-    text: "A beautiful private family-sized pool, with ample chaise lounge and Adirondack chair seating seating, is located adjacent to the house. Sloping from 3-6 ft., with 3 entrances, there's room for everyone to have fun. Heating is optional.",
+    text: "The house includes a beautiful family-sized pool sloping from 3 to 6 ft.  Ample Chaise/Adirondack seating, shaded areas and a cool coat surface around the pool, make this a great space for family and friends to enjoy the sunshine and beautiful weather.  ",
     images: [
       {
         src: "images/Pool.jpg",
