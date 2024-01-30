@@ -89,11 +89,13 @@ body {
   z-index: 1;
   background-color: #eee;
   border-radius: 15px 0 0 15px;
+  display: none;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 
 .menu-buttons-ctn.active {
+  display: block;
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
 }
@@ -118,6 +120,14 @@ body {
 
 .menu-buttons:hover {
   background-color: #ddd;
+}
+
+.menu-buttons-ctn li:first-child .menu-buttons:hover {
+  border-radius: 15px 0 0 0;
+}
+
+.menu-buttons-ctn li:last-child .menu-buttons:hover {
+  border-radius: 0 0 0 15px;
 }
 
 .header-nav-scroll {
