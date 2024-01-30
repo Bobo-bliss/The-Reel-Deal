@@ -72,11 +72,9 @@ body {
 }
 
 .menu-ctn {
-  display: none;
   position: relative;
-  width: 0%;
+  width: 100%;
   height: 0%;
-  margin-left: 100%;
 }
 
 .menu-buttons-ctn {
@@ -85,16 +83,27 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 81px;
   z-index: 1;
   background-color: #eee;
-  transform: translateX(100%);
+  border-radius: 15px 0 0 15px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.menu-buttons-ctn.active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .menu-buttons-ctn li {
   border-bottom: 1px solid black;
+}
+
+.menu-buttons-ctn li:last-child {
+  border-bottom: none;
 }
 
 .menu-buttons {
@@ -411,8 +420,8 @@ body {
   margin: 2rem;
   padding: 1rem;
   border: 1px solid black;
-  width: 26rem;
-  height: 20rem;
+  width: 40%;
+  height: 22rem;
 }
 
 /* Footer styles */
@@ -430,7 +439,7 @@ body {
 
 /* Media queries */
 @media (max-width: 1024px) {
-  .header-nav {
+  .home-nav-buttons {
     display: none;
   }
 
@@ -440,99 +449,8 @@ body {
 }
 
 @media (max-width: 768px) {
-  .header-title {
-    margin: 0 0 0 1rem;
-  }
-
-  .header-buttons {
-    margin: 0 1rem 0 0;
-  }
-
-  .header-nav {
-    display: none;
-  }
-
-  .menu-button {
-    display: block;
-    margin: 0 1rem 0 0;
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-  }
-
-  .header-buttons {
-    display: none;
-  }
-
-  .header-buttons li {
-    display: none;
-  }
-
-  .header-title-scroll {
-    margin: 0 0 0 1rem;
-  }
-
-  .text-container {
-    width: 100%;
-  }
-
-  .home-tour-button a {
-    width: 100%;
-  }
-
-  .tour-title {
-    width: 100%;
-    margin: 0;
-  }
-
-  .carousel-img-ctn {
-    flex-direction: column;
-    height: 40rem;
-  }
-
-  .carousel-ctn {
-    width: 100%;
-  }
-
-  .carousel {
-    width: 100%;
-    max-height: 100%;
-  }
-
-  .overview-ctn,
-  .amenities-ctn {
-    flex-direction: column;
-  }
-
-  .overview-text,
-  .amenities-text {
-    width: 100%;
-    margin: 0;
-  }
-
-  .overview-img,
-  .amenities-img {
-    width: 100%;
-    margin: 2rem 0;
-  }
-
-  .pricing-options-ctn {
-    flex-direction: column;
-  }
-
-  .pricing-ctn,
-  .options-ctn {
-    width: 100%;
-    margin: 2rem 0;
-  }
-
-  .reviews-ctn {
-    padding: 2rem 0;
-  }
-
   .user-ctn {
-    width: 100%;
-    margin: 1rem 0;
+    width: 80%;
+    height: 100%;
   }
 }
