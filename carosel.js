@@ -49,6 +49,9 @@ roomButtons.forEach((room) => {
       img.src = image;
       img.alt = dataNames[roomId];
       img.classList.add("carousel");
+      img.onload = function () {
+        carouselImgCtn.appendChild(img);
+      };
 
       if (index === 0) {
         img.classList.add("prev");
@@ -57,8 +60,6 @@ roomButtons.forEach((room) => {
       } else if (index === 2) {
         img.classList.add("next");
       }
-
-      carouselImgCtn.appendChild(img);
     });
     carouselImages = document.querySelectorAll(".carousel");
     const carouselButtons = document.querySelectorAll(
