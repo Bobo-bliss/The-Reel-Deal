@@ -42,8 +42,6 @@ body {
 }
 
 .header-title-scroll {
-  text-decoration: none;
-  color: #ccc;
   transition: background-color 0.5s ease-out, color 0.5s ease-out;
 }
 
@@ -56,7 +54,7 @@ body {
   padding: 0;
   list-style: none;
   height: 3rem;
-  width: 65%;
+  width: 80%;
 }
 
 .header-buttons li {
