@@ -187,11 +187,11 @@ body {
 }
 
 .section-3 {
-  background: radial-gradient(circle at center, lightgray, rgb(27, 163, 163), teal);
+  background: radial-gradient(circle at center, lightgray, rgb(27 163 163 / 84%), #008080cf);
 }
 
 .section-4 {
-  background: radial-gradient(circle at center, lightgray, rgb(70 255 50), rgb(169 247 65));
+  background: radial-gradient(circle at center, lightgray, rgb(70 255 50 / 69%), rgb(169 247 65 / 81%));
 }
 
 .section-5 {
