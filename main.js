@@ -1,12 +1,22 @@
 const mainSlideshow = document.querySelectorAll(".slideshow-main img");
 const header = document.querySelector("header");
 const menuButton = document.getElementById("menu-button");
+const menuButtons = document.querySelectorAll(".menu-buttons");
+console.log(menuButtons);
 
 //Toggle menu
 menuButton.addEventListener("click", () => {
   const menu = document.querySelector(".menu-buttons-ctn");
   menu.classList.toggle("active");
   menuButton.classList.toggle("active");
+});
+
+//Close menu when a menu button is clicked
+menuButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    const menu = document.querySelector(".menu-buttons-ctn");
+    menu.classList.toggle("active");
+  });
 });
 
 //Main slide show
