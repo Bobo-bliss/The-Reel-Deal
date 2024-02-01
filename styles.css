@@ -574,6 +574,14 @@ body {
     margin: 0 0 0 1rem;
   }
 
+  .slideshow-main {
+    height: 70vh;
+  }
+
+  .slideshow-main img {
+    height: 70vh;
+  }
+
   .tour-header {
     flex-direction: column;
   }
@@ -586,6 +594,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
+    margin: 0;
   }
 
   .tour-title {
