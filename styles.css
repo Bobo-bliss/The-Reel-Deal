@@ -640,4 +640,8 @@ body {
   .footer-text {
     flex-direction: column;
   }
+
+  .contact {
+    margin-left: -0.6rem;
+  }
 }
