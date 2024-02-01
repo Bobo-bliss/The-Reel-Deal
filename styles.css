@@ -570,8 +570,26 @@ body {
 }
 
 @media (max-width: 425px) {
+  .header h1,
+  .tour-header h1 {
+    margin: 0.2rem 0 0.4rem;
+  }
+
+  .header h1 {
+    width: 10rem;
+  }
+
+  .header a {
+    font-size: 1.5rem;
+  }
+
   .header-title {
     margin: 0 0 0 1rem;
+  }
+
+  .menu-button {
+    font-size: 1rem;
+    margin-right: 1rem;
   }
 
   .slideshow-main {
