@@ -95,13 +95,13 @@ body {
   border-radius: 15px 0 0 15px;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s 0.5s, opacity 0.5s ease-in-out;
+  transition: visibility 0s 0.2s, opacity 0.2s ease-in-out;
 }
 
 .menu-buttons-ctn.active {
   visibility: visible;
   opacity: 1;
-  transition: visibility 0s, opacity 0.5s ease-in-out;
+  transition: visibility 0s, opacity 0.3s ease-in-out;
 }
 
 .menu-buttons-ctn li {
