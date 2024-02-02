@@ -69,6 +69,9 @@ roomButtons.forEach((room) => {
 
         if (imagesLoaded === dataPictures[roomId].length) {
           carouselImages = document.querySelectorAll(".carousel");
+          current = 0;
+          next = current < carouselImages.length - 1 ? current + 1 : 0;
+          prev = current > 0 ? current - 1 : carouselImages.length - 1;
           updateCarousel();
         }
       };
