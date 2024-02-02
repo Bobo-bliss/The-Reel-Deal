@@ -43,36 +43,44 @@ roomButtons.forEach((room) => {
       </div>
     </div>
     `;
-    const carouselImgCtn = document.querySelector(".carousel-img-ctn");
+
+    const carouselImgCtn = document.querySelector(".carousel-img-ctn"); //select the img container
+
+    let imagesLoaded = 0;
+
+    //Load images to the container
     dataPictures[roomId].forEach((image, index) => {
       let img = document.createElement("img");
       img.src = image;
       img.alt = dataNames[roomId];
       img.classList.add("carousel");
-      img.onload = function () {
-        carouselImgCtn.appendChild(img);
-      };
 
-      if (index === 0) {
+      if (index === dataPictures[roomId].length) {
         img.classList.add("prev");
-      } else if (index === 1) {
+      } else if (index === 0) {
         img.classList.add("current");
-      } else if (index === 2) {
+      } else if (index === 1) {
         img.classList.add("next");
       }
+
+      img.onload = function () {
+        carouselImgCtn.appendChild(img);
+        imagesLoaded++;
+
+        if (imagesLoaded === dataPictures[roomId].length) {
+          carouselImages = document.querySelectorAll(".carousel");
+          updateCarousel();
+        }
+      };
     });
-    carouselImages = document.querySelectorAll(".carousel");
     const carouselButtons = document.querySelectorAll(
       ".carousel-buttons button"
     );
     for (let i = 0; i < carouselButtons.length; i++) {
       carouselButtons[i].addEventListener("click", () => {
         i === 0 ? goToPrev() : goToNext();
-        console.log(carouselImages);
       });
     }
-
-    updateCarousel();
   });
 });
 
@@ -84,8 +92,8 @@ const updateCarousel = () => {
   carouselImages.forEach((image) => {
     image.classList.remove("prev", "current", "next"); //Remove all classes
   });
-  carouselImages[current].classList.add("current");
   carouselImages[next].classList.add("next"); //Add classes to current, next, and prev
+  carouselImages[current].classList.add("current");
   carouselImages[prev].classList.add("prev");
 };
 
@@ -113,8 +121,5 @@ const goToPrev = () => {
 for (let i = 0; i < carouselButtons.length; i++) {
   carouselButtons[i].addEventListener("click", () => {
     i === 0 ? goToPrev() : goToNext();
-    console.log(carouselImages);
   });
 }
-
-updateCarousel();
