@@ -612,7 +612,7 @@ body {
 
   .tour-header-buttons {
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     height: 100%;
     margin: 0;
   }
