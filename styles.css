@@ -172,30 +172,38 @@ body {
 .section-2,
 .section-3,
 .section-4,
-.section-5 {
+.section-5,
+.section-6 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .section-1 {
-  background: radial-gradient(circle at center, lightgray, rgb(252, 255, 50), rgb(202, 213, 7));
+  background: radial-gradient(circle at center, lightgray, rgb(252 255 50 / 77%), rgb(202 213 7 / 88%));
 }
 
 .section-2 {
-  background: radial-gradient(circle at center, lightgray, rgb(215 155 176), rgb(245 109 157));
+  background: radial-gradient(circle at center, lightgray, rgb(255, 198, 93), rgb(235, 185, 37));
+  flex-direction: row-reverse;
 }
 
 .section-3 {
-  background: radial-gradient(circle at center, lightgray, rgb(27 163 163 / 84%), #008080cf);
+  background: radial-gradient(circle at center, lightgray, rgb(215 155 176), rgb(245 109 157 / 87%));
 }
 
 .section-4 {
-  background: radial-gradient(circle at center, lightgray, rgb(70 255 50 / 69%), rgb(169 247 65 / 81%));
+  background: radial-gradient(circle at center, lightgray, rgb(27 163 163 / 84%), #008080cf);
+  flex-direction: row-reverse;
 }
 
 .section-5 {
+  background: radial-gradient(circle at center, lightgray, rgb(70 255 50 / 69%), rgb(169 247 65 / 81%));
+}
+
+.section-6 {
   background: radial-gradient(circle at center, lightgray, #efe5b1, #c5b06c);
+  flex-direction: row-reverse;
 }
 
 .text-container {
