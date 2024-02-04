@@ -54,6 +54,7 @@ roomButtons.forEach((room) => {
       img.src = image;
       img.alt = dataNames[roomId];
       img.classList.add("carousel");
+      console.log(index, dataPictures[roomId].length - 1);
 
       if (index === dataPictures[roomId].length) {
         img.classList.add("prev");
