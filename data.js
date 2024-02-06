@@ -58,6 +58,10 @@ export const data = [
         alt: "bedroom",
       },
       {
+        src: "images/Guest bedroom 3-2.jpg",
+        alt: "bedroom",
+      },
+      {
         src: "images/Guest bedroom 4.JPG",
         alt: "bedroom",
       },
@@ -110,6 +114,22 @@ export const data = [
       {
         src: "images/ocean view from in house.jpg",
         alt: "Living Room",
+      },
+      {
+        src: "images/From kitchen ocean view 2.jpg",
+        alt: "Dining room table",
+      },
+      {
+        src: "images/Dinning table.jpg",
+        alt: "Dining room table",
+      },
+      {
+        src: "images/Dinningroom 3.jpg",
+        alt: "Dining room table",
+      },
+      {
+        src: "images/Dinningroom 2.jpg",
+        alt: "Dining room table",
       },
     ],
   },

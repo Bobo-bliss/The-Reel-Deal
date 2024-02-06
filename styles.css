@@ -32,6 +32,7 @@ body {
 .header h1,
 .tour-header h1 {
   width: 13rem;
+  margin: 1rem 0;
 }
 
 .header-title {
@@ -514,15 +515,23 @@ body {
     width: 95%;
   }
 
+  .tour-header {
+    flex-direction: column;
+  }
+
+  .tour-header h1 {
+    margin-bottom: 0;
+  }
+
   .tour-ctn {
     flex-direction: column;
     align-items: center;
   }
   
-    .tour-title {
-      width: 80%;
-      margin: -4rem 0 5rem;
-    }
+  .tour-title {
+    width: 80%;
+    margin: -4rem 0 5rem;
+  }
 
   .carousel-ctn {
     position: relative;
