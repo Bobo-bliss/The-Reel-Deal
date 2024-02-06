@@ -34,11 +34,11 @@ export const data = [
     text: "The upstairs master bedroom has a king size bed, a private bathroom, and a private deck. The lower level master bedroom has a king size bed, a private bathroom, and access to the main deck. There are two additional guest bedrooms with queen size beds, and a separate upstairs living area that sleeps five.",
     images: [
       {
-        src: "images/Master bedroom.jpg",
+        src: "images/Master bedroom 2.jpg",
         alt: "bedroom",
       },
       {
-        src: "images/Master bedroom 2.jpg",
+        src: "images/Master bedroom.jpg",
         alt: "bedroom",
       },
       {
@@ -59,6 +59,10 @@ export const data = [
       },
       {
         src: "images/Guest bedroom 3-2.jpg",
+        alt: "bedroom",
+      },
+      {
+        src: "images/Guest bedroom 3-3.jpg",
         alt: "bedroom",
       },
     ],
