@@ -9,10 +9,6 @@ export const data = [
         alt: "kitchen",
       },
       {
-        src: "images/Kitchen 2.jpg",
-        alt: "kitchen",
-      },
-      {
         src: "images/Kitchen 3.jpg",
         alt: "kitchen",
       },
