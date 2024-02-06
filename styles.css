@@ -169,6 +169,10 @@ body {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3), -10px -10px 15px rgba(255, 255, 255, 0.7);
 }
 
+#videos {
+  padding-top: 6rem;
+}
+
 .section-1,
 .section-2,
 .section-3,
@@ -233,6 +237,7 @@ body {
 }
 
 .home-tour-container {
+  padding-top: 5rem;
   margin: 2rem;
   display: flex;
   flex-direction: column;
