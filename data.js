@@ -54,15 +54,15 @@ export const data = [
         alt: "bedroom",
       },
       {
-        src: "images/Guest bedroom 3.jpg",
-        alt: "bedroom",
-      },
-      {
         src: "images/Guest bedroom 3-2.jpg",
         alt: "bedroom",
       },
       {
         src: "images/Guest bedroom 3-3.jpg",
+        alt: "bedroom",
+      },
+      {
+        src: "images/Guest bedroom 3.jpg",
         alt: "bedroom",
       },
     ],
