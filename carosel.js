@@ -55,7 +55,7 @@ roomButtons.forEach((room) => {
       img.alt = dataNames[roomId];
       img.classList.add("carousel");
 
-      if (index === dataPictures[roomId].length) {
+      if (index === dataPictures[roomId].length - 1) {
         img.classList.add("prev");
       } else if (index === 0) {
         img.classList.add("current");
@@ -63,8 +63,9 @@ roomButtons.forEach((room) => {
         img.classList.add("next");
       }
 
+      carouselImgCtn.appendChild(img);
+
       img.onload = function () {
-        carouselImgCtn.appendChild(img);
         imagesLoaded++;
 
         if (imagesLoaded === dataPictures[roomId].length) {
@@ -76,9 +77,11 @@ roomButtons.forEach((room) => {
         }
       };
     });
+
     const carouselButtons = document.querySelectorAll(
       ".carousel-buttons button"
     );
+
     for (let i = 0; i < carouselButtons.length; i++) {
       carouselButtons[i].addEventListener("click", () => {
         i === 0 ? goToPrev() : goToNext();

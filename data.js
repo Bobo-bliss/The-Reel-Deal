@@ -38,7 +38,11 @@ export const data = [
         alt: "bedroom",
       },
       {
-        src: "images/Guest bedroom.jpg",
+        src: "images/Guest bedroom 1.jpg",
+        alt: "bedroom",
+      },
+      {
+        src: "images/Guest bedroom 1-2.jpg",
         alt: "bedroom",
       },
       {
@@ -59,6 +63,18 @@ export const data = [
       },
       {
         src: "images/Guest bedroom 3.jpg",
+        alt: "bedroom",
+      },
+      {
+        src: "images/Guest bunkroom.jpg",
+        alt: "bedroom",
+      },
+      {
+        src: "images/Guest bunkroom 2.jpg",
+        alt: "bedroom",
+      },
+      {
+        src: "images/Guest bunkroom 3.jpg",
         alt: "bedroom",
       },
     ],
