@@ -432,6 +432,10 @@ body {
   display: flex;
 }
 
+.vrbo-link {
+  color: blue;
+}
+
 .reviews-ctn {
   padding: 6rem 0;
 }
