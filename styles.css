@@ -440,6 +440,10 @@ body {
   text-align: center;
 }
 
+.orange-red-star {
+  color: #fb6d03;
+}
+
 .reviews-reviews {
   display: flex;
   justify-content: center;
