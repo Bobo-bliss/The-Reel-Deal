@@ -474,6 +474,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+.copyright {
+  margin-top: 1rem;
+}
 /* Footer styles */
 
 /* Media queries */
