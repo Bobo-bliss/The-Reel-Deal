@@ -432,6 +432,11 @@ body {
   display: flex;
 }
 
+.pricing-ctn {
+  display: flex;
+  flex-direction: column;
+}
+
 .vrbo-link {
   color: blue;
 }
