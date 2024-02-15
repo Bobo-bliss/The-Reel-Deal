@@ -436,6 +436,21 @@ body {
   color: blue;
 }
 
+.gps-map {
+  text-align: center;
+  width: 100%; /* Or any specific width you want */
+  height: auto; /* This will maintain the aspect ratio */
+  max-width: 100%; /* Ensures the image doesn't exceed the container */
+  overflow: hidden; /* Hide any overflow */
+}
+
+.gps-map img {
+  width: 65%; /* Occupy the full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto;
+}
+
 .reviews-ctn {
   padding: 6rem 0;
 }
@@ -496,6 +511,10 @@ body {
 
   .tour-ctn {
     overflow: visible;
+  }
+
+  .gps-map img {
+    width: 80%; /* Occupy the full width of the container */
   }
 }
 
@@ -588,6 +607,10 @@ body {
 
   .pricing-ctn {
     margin-bottom: 1rem;
+  }
+
+  .gps-map img {
+    width: 60%; /* Occupy the full width of the container */
   }
 
   .reviews-ctn {
