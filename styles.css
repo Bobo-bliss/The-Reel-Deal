@@ -377,7 +377,7 @@ body {
 .carousel-buttons button i {
   font-size: 2rem;
 }
-/* Image carousel on tour page */
+/* ^Image carousel on tour page^ */
 
 .overview-ctn,
 .amenities-ctn {
@@ -394,6 +394,21 @@ body {
 .overview-text,
 .amenities-text {
   width: 60%;
+}
+
+.about-the-owner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-the-owner img {
+  width: 20%;
+  margin: 1.3rem;
+}
+
+.about-text {
+  margin: 0 2rem 0 0;
 }
 
 .amenities-text {
@@ -593,12 +608,25 @@ body {
 
   .overview-text,
   .amenities-text {
-    width: 85%;
+    width: auto;
   }
 
   .overview-img,
   .amenities-img {
     width: 60%;
+  }
+
+  .about-the-owner {
+    flex-direction: column;
+  }
+  
+  .about-the-owner img {
+    width: 50%;
+  }
+  
+  .overview-text,
+  .about-text {
+    margin: 0 1rem;
   }
 
   .pricing-ctn,
