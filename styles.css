@@ -472,7 +472,7 @@ body {
 }
 
 .reviews-ctn {
-  padding: 6rem 0 4rem;
+  padding: 6rem 0 2rem;
 }
 
 .reviews-header {
@@ -503,6 +503,11 @@ body {
   justify-content: center;
   align-items: center;
   padding-bottom: 2rem;
+}
+
+.back-to-top-btn {
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
 }
 
 /* Footer styles */
