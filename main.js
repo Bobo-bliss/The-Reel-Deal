@@ -2,7 +2,6 @@ const mainSlideshow = document.querySelectorAll(".slideshow-main img");
 const header = document.querySelector("header");
 const menuButton = document.getElementById("menu-button");
 const menuButtons = document.querySelectorAll(".menu-buttons");
-console.log(menuButtons);
 
 //Toggle menu
 menuButton.addEventListener("click", () => {

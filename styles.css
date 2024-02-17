@@ -508,6 +508,11 @@ body {
 .back-to-top-btn {
   border-radius: 20px;
   padding: 0.5rem 1rem;
+  text-decoration: none;
+  background-color: #ddd;
+  border: 3px groove;
+  border-color: #777;
+  color: black;
 }
 
 /* Footer styles */
