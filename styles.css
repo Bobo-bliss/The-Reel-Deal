@@ -638,7 +638,7 @@ body {
   }
   
   .about-the-owner img {
-    width: 50%;
+    width: 35%;
   }
   
   .overview-text,
@@ -710,6 +710,10 @@ body {
 
   .slideshow-main img {
     height: 50vh;
+  }
+
+  .home-tour-container {
+    margin: 2rem 0;
   }
 
   .tour-header {
