@@ -458,15 +458,15 @@ body {
 
 .gps-map {
   text-align: center;
-  width: 100%; /* Or any specific width you want */
-  height: auto; /* This will maintain the aspect ratio */
-  max-width: 100%; /* Ensures the image doesn't exceed the container */
-  overflow: hidden; /* Hide any overflow */
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .gps-map img {
-  width: 65%; /* Occupy the full width of the container */
-  height: auto; /* Maintain aspect ratio */
+  width: 65%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
@@ -660,7 +660,7 @@ body {
   }
 
   .gps-map img {
-    width: 60%; /* Occupy the full width of the container */
+    width: 60%;
   }
 
   .reviews-ctn {
@@ -705,11 +705,11 @@ body {
   }
 
   .slideshow-main {
-    height: 50vh;
+    height: 40vh;
   }
 
   .slideshow-main img {
-    height: 50vh;
+    height: 40vh;
   }
 
   .home-tour-container {
