@@ -471,6 +471,23 @@ body {
   margin: 0 auto;
 }
 
+/* vrbo calendar */
+.vrbo-calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.vrbo-calendar iframe {
+  width: 80%;
+  height: 30rem;
+}
+
+#calendarTitle {
+  display: none;
+}
+
 .reviews-ctn {
   padding: 6rem 0 2rem;
 }
