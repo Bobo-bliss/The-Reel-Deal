@@ -400,6 +400,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 5rem;
 }
 
 .about-the-owner img {
@@ -678,6 +679,11 @@ body {
 
   .gps-map img {
     width: 60%;
+  }
+
+  /* VRBO calendar */
+  .vrbo-calendar iframe {
+    width: 100%;
   }
 
   .reviews-ctn {
