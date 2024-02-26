@@ -143,13 +143,13 @@ body {
   display: flex;
   justify-content: center;
   background-color: #63327c;
-  height: 100vh;
+  height: 105vh;
   position: relative;
 }
 
 .slideshow-main img {
   width: 100%;
-  height: 100vh;
+  height: 105vh;
   position: absolute;
   opacity: 0;
   transition: opacity 2s ease-in-out;

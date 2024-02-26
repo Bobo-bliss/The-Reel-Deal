@@ -147,7 +147,7 @@ export const data = [
     text: "Located just 22 steps from the Gulf of Mexico, this beautiful home features two covered decks, a private boardwalk for beach access, a private pool, an outdoor shower, a gas grill, a fish cleaning sink, and bluetooth-compatible speakers on the deck and in the pool area.  Enjoy breathtaking sunrises and sunsets from your deck, sunbathe poolside or on the beach, cast your line for some of the best fishing in all of Florida, take a swim in the blue-green waters of the Gulf or take a leisurely stroll along the beach.  It's all there for you at A Reel Deal.",
     images: [
       {
-        src: "images/Whole house view front.jpg",
+        src: "images/Font house view resized.jpg",
         alt: "Exterior",
       },
       {
