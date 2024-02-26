@@ -542,11 +542,20 @@ body {
 .footer-text {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+}
+
+.end-title,
+.contact {
+  width: 40%;
 }
 
 .copyright {
   margin-top: 1rem;
+}
+
+.np {
+  margin: 3rem 0 0;
 }
 /* Footer styles */
 
@@ -775,6 +784,12 @@ body {
 
   .footer-text {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .end-title,
+  .contact {
+    width: 90%;
   }
 
   .contact {
