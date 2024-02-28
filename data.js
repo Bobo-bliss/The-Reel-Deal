@@ -13,11 +13,6 @@ export const data = [
         alt: "kitchen",
       },
       {
-        src: "images/Kitchen 4.jpg",
-        alt: "kitchen",
-        class: "img-resize",
-      },
-      {
         src: "images/Kitchen 5.jpg",
         alt: "kitchen",
         class: "img-resize",
