@@ -27,7 +27,7 @@ export const data = [
   {
     id: "1",
     name: "Bedrooms",
-    text: "The upstairs master bedroom has a king size bed, a private bathroom, and a private deck. The lower level master bedroom has a king size bed, a private bathroom, and access to the main deck. There are two additional guest bedrooms with queen size beds, and a separate upstairs living area that sleeps five.",
+    text: "The upstairs master bedroom has a king size bed, a private bathroom, a desk area, and a private deck.<br>The lower level master bedroom has a king size bed, a private bathroom, and access to the main deck.<br>There are two additional guest bedrooms with queen size beds, and a separate upstairs living area that sleeps five.",
     images: [
       {
         src: "images/Master bedroom 2.jpg",
