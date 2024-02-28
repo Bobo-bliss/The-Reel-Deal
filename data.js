@@ -174,10 +174,6 @@ export const data = [
         alt: "Exterior",
       },
       {
-        src: "images/Ocean from porch view.jpg",
-        alt: "Exterior",
-      },
-      {
         src: "images/Porch ocean view.jpg",
         alt: "Exterior",
       },
