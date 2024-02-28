@@ -2,7 +2,7 @@ export const data = [
   {
     id: "0",
     name: "Kitchen",
-    text: "This beautifully appointed kitchen has everything you'll need including a stove, oven, refrigerator, freezer, microwave, dishwasher, both drip and Keurig coffee makers, crock pots, toasters, blenders, wine rack, as well as ample dishware, glassware, flatware, utensils, pots, pans, mixing bowls, and baking dishes.  There is also a gas grill under the house for outdoor cooking.",
+    text: "This beautifully appointed kitchen has everything you'll need including a stove, oven, refrigerator, freezer, microwave, dishwasher, both drip and Keurig coffee makers, crock pots, toasters, blenders, wine rack, as well as ample dishware, glassware, flatware, utensils, pots, pans, mixing bowls, and baking dishes.<br>There is also a gas grill under the house for outdoor cooking.",
     images: [
       {
         src: "images/Kitchen.jpg",
@@ -77,7 +77,7 @@ export const data = [
   {
     id: "2",
     name: "Pool",
-    text: "The house includes a beautiful family-sized pool sloping from 3 to 6 ft.  Ample Chaise/Adirondack seating, shaded areas and a cool coat surface around the pool, make this a great space for family and friends to enjoy the sunshine and beautiful weather.  ",
+    text: "The house includes a beautiful family-sized pool sloping from 3 to 6 ft.<br>Ample Chaise/Adirondack seating, shaded areas and a cool coat surface around the pool, make this a great space for family and friends to enjoy the sunshine and beautiful weather.  ",
     images: [
       {
         src: "images/Pool.jpg",
@@ -100,7 +100,7 @@ export const data = [
   {
     id: "3",
     name: "Living Area",
-    text: "The spacious living area has vaulted ceilings and an open floor plan, a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth-compatible speakers.  A large dining table that seats 8, with  6 additional stools, lets family and friends gather together to enjoy meals.  And French Doors lead you out to the main deck and incredible views of the Gulf.",
+    text: "The spacious living area has vaulted ceilings and an open floor plan, a decorative fireplace, a 55 inch TV with streaming capability, a DVD player, and bluetooth-compatible speakers.<br>A large dining table that seats 8, with 6 additional stools, lets family and friends gather together to enjoy meals.<br>And French Doors lead you out to the main deck and incredible views of the Gulf.",
     images: [
       {
         src: "images/Livingroom top-down.jpg",
@@ -135,7 +135,7 @@ export const data = [
   {
     id: "4",
     name: "Exterior",
-    text: "Located just 22 steps from the Gulf of Mexico, this beautiful home features two covered decks, a private boardwalk for beach access, a private pool, an outdoor shower, a gas grill, a fish cleaning sink, and bluetooth-compatible speakers on the deck and in the pool area.  Enjoy breathtaking sunrises and sunsets from your deck, sunbathe poolside or on the beach, cast your line for some of the best fishing in all of Florida, take a swim in the blue-green waters of the Gulf or take a leisurely stroll along the beach.  It's all there for you at A Reel Deal.",
+    text: "Located just 22 steps from the Gulf of Mexico, this beautiful home features two covered decks, a private boardwalk for beach access, a private pool, an outdoor shower, a gas grill, a fish cleaning sink, and bluetooth-compatible speakers on the deck and in the pool area.<br>Enjoy breathtaking sunrises and sunsets from your deck, sunbathe poolside or on the beach, cast your line for some of the best fishing in all of Florida, take a swim in the blue-green waters of the Gulf or take a leisurely stroll along the beach.<br>It's all there for you at <i>A Reel Deal</i>.",
     images: [
       {
         src: "images/Font house view resized.jpg",
