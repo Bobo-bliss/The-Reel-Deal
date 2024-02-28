@@ -17,6 +17,18 @@ export const data = [
         alt: "kitchen",
         class: "img-resize",
       },
+      {
+        src: "images/kitchen diningroom.jpg",
+        alt: "kitchen",
+      },
+      {
+        src: "images/kitchen diningroom 2.jpg",
+        alt: "kitchen",
+      },
+      {
+        src: "images/kitchen diningroom 3.jpg",
+        alt: "kitchen",
+      },
     ],
   },
   {
@@ -54,6 +66,10 @@ export const data = [
       },
       {
         src: "images/Guest bedroom 3-3.jpg",
+        alt: "bedroom",
+      },
+      {
+        src: "images/Guest bedroom 3-4.jpg",
         alt: "bedroom",
       },
       {
@@ -142,7 +158,7 @@ export const data = [
         alt: "Exterior",
       },
       {
-        src: "images/Whole house view rear.jpg",
+        src: "images/Back house view.jpg",
         alt: "Exterior",
       },
       {
@@ -159,6 +175,10 @@ export const data = [
       },
       {
         src: "images/Ocean from porch view.jpg",
+        alt: "Exterior",
+      },
+      {
+        src: "images/Porch ocean view.jpg",
         alt: "Exterior",
       },
       {
