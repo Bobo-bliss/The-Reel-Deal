@@ -124,10 +124,6 @@ export const data = [
         alt: "Living Room",
       },
       {
-        src: "images/From kitchen ocean view 2.jpg",
-        alt: "Dining room table",
-      },
-      {
         src: "images/Dinning table.jpg",
         alt: "Dining room table",
       },
