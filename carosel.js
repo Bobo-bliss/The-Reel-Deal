@@ -1,14 +1,14 @@
-import { data } from "./data.js";
+import { carouselData } from "./data.js";
 
-const dataNames = data.map((item) => {
+const carouselDataNames = carouselData.map((item) => {
   return item.name;
 });
 
-const dataText = data.map((item) => {
+const carouselDataText = carouselData.map((item) => {
   return item.text;
 });
 
-const dataPictures = data.map((item) => {
+const carouselDataPictures = carouselData.map((item) => {
   return item.images.map((image) => {
     return image.src;
   });
@@ -27,8 +27,8 @@ roomButtons.forEach((room) => {
     tourContainer.innerHTML = "";
     tourContainer.innerHTML = `
     <div class="tour-title">
-    <h1 tabindex="0">${dataNames[roomId]}</h1>
-    <p tabindex="0">${dataText[roomId]}</p>
+    <h1 tabindex="0">${carouselDataNames[roomId]}</h1>
+    <p tabindex="0">${carouselDataText[roomId]}</p>
     </div>
     <div class="carousel-ctn">
       <div class="carousel-img-ctn"></div>
@@ -49,13 +49,13 @@ roomButtons.forEach((room) => {
     let imagesLoaded = 0;
 
     //Load images to the container
-    dataPictures[roomId].forEach((image, index) => {
+    carouselDataPictures[roomId].forEach((image, index) => {
       let img = document.createElement("img");
       img.src = image;
-      img.alt = dataNames[roomId];
+      img.alt = carouselDataNames[roomId];
       img.classList.add("carousel");
 
-      if (index === dataPictures[roomId].length - 1) {
+      if (index === carouselDataPictures[roomId].length - 1) {
         img.classList.add("prev");
       } else if (index === 0) {
         img.classList.add("current");
@@ -68,7 +68,7 @@ roomButtons.forEach((room) => {
       img.onload = function () {
         imagesLoaded++;
 
-        if (imagesLoaded === dataPictures[roomId].length) {
+        if (imagesLoaded === carouselDataPictures[roomId].length) {
           carouselImages = document.querySelectorAll(".carousel");
           current = 0;
           next = current < carouselImages.length - 1 ? current + 1 : 0;

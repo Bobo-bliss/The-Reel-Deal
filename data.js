@@ -1,4 +1,4 @@
-export const data = [
+export const carouselData = [
   {
     id: "0",
     name: "Kitchen",
@@ -198,5 +198,57 @@ export const data = [
         alt: "Exterior",
       },
     ],
+  },
+];
+
+export const reviewsData = [
+  {
+    userName: "Jeannie O.",
+    userDate: "May 23, 2024",
+    userComment: "Perfection!",
+    userReview:
+      "I cannot praise this property enough! My family and I have stayed on the island for almost 30 years and this is by far our favorite house. The location, the floor plan, the cleanliness, and the host are exceptional. I cannot wait to book for next year.",
+  },
+  {
+    userName: "Patrick S.",
+    userDate: "Apr 17, 2024",
+    userComment: "Great house for families",
+    userReview:
+      "The property is well kept, and a great location for families to enjoy a week at the beach. The house and pool were clean and inviting. The beach wasn't crowded, and overall we had an enjoyable week.",
+  },
+  {
+    userName: "Marc F.",
+    userDate: "Mar 25, 2024",
+    userComment: "A Great Spot!",
+    userReview:
+      "Loved this property. It was very well appointed with all the needs for a great beach stay. The pool was wonderful and being within the plantation was quiet and peaceful. We were welcomed by Dolphins on our check in day and got to enjoy seeing them all week long. The host was very gracious and attentive and made sure everything was as requested. We took our family (all adult children and spouses) with us and they also greatly enjoyed the property. Loved the fact that we could walk out on the back deck, down the steps and be at the beach or pool. I would highly recommend this property.",
+  },
+  {
+    userName: "Shannon B.",
+    userDate: "Oct 18, 2023",
+    userComment: "Perfect trip!",
+    userReview:
+      "Traveling with children, it's rare that a trip meets my expectations, but our stay at <i>A Reel Deal</i> was wonderful. We were steps from the beach and could go put our toes in the sand for five minutes or two hours without much preparation. The house was lovely, and we absolutely loved the pool! We fully utilized the kitchen, and there was more than enough room for our family (5 adults and 2 kids). We've already talked about going back",
+  },
+  {
+    userName: "Rodney Z.",
+    userDate: "Sep 24, 2023",
+    userComment: "Older siblings get together",
+    userReview:
+      "The location could not be beat. Beautiful ocean views, saw dolphins every morning while having coffee on the deck. Nice large private pool is another advantage. The forgotten coast doesn't have crowded beaches but the beach in front of the house almost felt private. I will definitely choose this rental again when returning to St George Island.",
+  },
+  {
+    userName: "Pat S.",
+    userDate: "Jun 21, 2023",
+    userComment: "What's not to love?",
+    userReview:
+      "This beautiful home has the perfect view of the ocean. It was spacious, had everything you need in the well stocked kitchen and decorated beautifully. Loved seeing pictures of the Stark family in their beach home. The pool was enjoyed by everyone when we were not on the beach. We hope to return in 2024! Thank you Gordon for sharing your family home with us.",
+  },
+  {
+    userName: "Mary Anna S.",
+    userDate: "Apr 1, 2023",
+    userComment: "Most relaxing vacation ever!!!",
+    userReview:
+      "A “Reel Deal” at St. George Island surpassed all of our expectations. This beautiful house had plenty of room and was just steps away from the ocean. The privacy of The Plantation, location of the house and great fishing were some of the things that we loved. The house was very clean and had everything we needed. It was nice to not have to wait hours to eat at a restaurant and endure heavy traffic in a crowded beach area. We can’t wait to go back!",
   },
 ];

@@ -217,14 +217,14 @@ body {
 }
 
 .text-container p {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .video-container {
   position: relative;
   width: 80%;
   height: 0;
-  padding-bottom: 35.25%;
+  padding-bottom: 34.25%;
   overflow: hidden;
 }
 
@@ -490,7 +490,7 @@ body {
 }
 
 .reviews-ctn {
-  padding: 6rem 0 2rem;
+  padding: 4rem 0 2rem;
 }
 
 .reviews-header {
@@ -513,7 +513,6 @@ body {
   padding: 1rem;
   border: 1px solid black;
   width: 40%;
-  height: 22rem;
 }
 
 .back-to-top-btn-ctn {
@@ -580,6 +579,25 @@ body {
   .gps-map img {
     width: 80%;
   }
+
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4,
+  .section-5,
+  .section-6 {
+    flex-direction: column;
+  }
+
+
+  .video-container {
+    width: 100%;
+    padding-bottom: 58.25%;
+  }
+
+  .text-container {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -588,31 +606,17 @@ body {
   }
 
   .overview-ctn,
-  .section-1,
-  .section-3,
-  .section-5,
-  .section-6,
   .amenities-ctn,
   .pricing-options-ctn {
     flex-direction: column;
   }
 
-  .section-2,
-  .section-4 {
-    flex-direction: column-reverse;
-  }
-
-  .text-container {
-    width: 100%;
-  }
-
-  .video-container {
-    width: 100%;
-    padding-bottom: 56.25%;
-  }
-
   .home-tour-button a {
     width: 95%;
+  }
+
+  .text-container p {
+    font-size: 17px;
   }
 
   .tour-header {
